@@ -1,0 +1,39 @@
+.Home {
+    display: flex;
+    padding: 2rem 0;
+    background-color: #24262b;
+    color: #e5e7eb;
+
+    .Intro {
+        width: 70%;
+        padding: 2rem 4rem;
+        margin-right: 4rem;
+
+        h1 {
+            margin: 12px 0;
+        }
+
+        h3 {
+            margin: 12px 0;
+        }
+
+        p {
+            line-height: 1.7;
+            max-width: 600px;
+        }
+    }
+
+    .Greet {
+        color: #a5b4fc;
+    }
+
+    .secondary-text {
+        color: #a1a1aa;
+    }
+
+    .Profile {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+}
